@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundbawag">
+    <TextView
+        android:layout_width="271dp"
+        android:layout_height="42dp"
+        android:text="Hi, Wecome Back! 👋"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="25dp"
+        android:textColor="@color/light_white"
+        android:layout_marginTop="92dp"
+        android:layout_marginLeft="29dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello again, you’ve been missed!"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="29dp"
+        android:fontFamily="@font/manropesb"
+        android:textColor="@color/warnatulisanatas"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/warnabackto"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="17dp"
+        android:layout_marginLeft="29dp"/>
+    
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:background="@drawable/emailpass"
+        android:layout_marginTop="230dp"
+        android:hint="   Masukkan Username Anda"
+        android:layout_marginLeft="28dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/warnabackto"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="17dp"
+        android:layout_marginLeft="29dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:hint="   Masukkan Email Anda"
+        android:background="@drawable/emailpass"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="28dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/warnabackto"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="17dp"
+        android:layout_marginLeft="29dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:hint="   Masukkan Password Anda"
+        android:background="@drawable/emailpass"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="28dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="365dp"
+        android:textColor="@color/light_white"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Remember Me" />
+    
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="19dp"
+        android:text="Lupa Password?"
+        android:textColor="@color/merah"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="489dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="29dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:background="@drawable/emailpass" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="29dp"
+        android:background="@color/warnatulisanatas">
+    </View>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Or With"
+        android:textColor="@color/warnatulisanatas" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="230dp"
+        android:background="@color/warnatulisanatas">
+    </View>
+
+</RelativeLayout>

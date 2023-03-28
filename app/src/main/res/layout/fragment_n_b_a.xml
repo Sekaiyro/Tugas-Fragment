@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat"
+    android:background="@drawable/backgroundbawag">
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilsatu"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/icpropil"/>
+    <TextView
+        android:id="@+id/textprofilatassatudu"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Buat Tautan Panggilan"
+        android:layout_toRightOf="@id/profilsatu"
+        android:layout_marginTop="18dp"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginLeft="@dimen/activity_vertical_margin">
+
+    </TextView>
+    <TextView
+        android:id="@+id/textbagikan"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Bagikan tautan untuk panggilan ChatSiapaYa Anda"
+        android:layout_below="@id/textprofilatassatudu"
+        android:layout_toRightOf="@id/profilsatu"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:textSize="13dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/card_4">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textbagikan"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Terbaru"
+        android:textColor="@color/card_4"
+        android:textSize="14dp">
+
+    </TextView>
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/profilsatu"
+        android:src="@drawable/menulink"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@color/black"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textColor="@color/light_white"
+        android:textSize="16dp"
+        android:text="          Dibuat Saat Gabut Oleh Adrian">
+
+    </TextView>
+</RelativeLayout>
